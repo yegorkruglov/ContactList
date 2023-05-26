@@ -9,10 +9,9 @@ import UIKit
 
 final class ContactList: UITableViewController {
     
-    let contacts = Contact.getContactList()
+    var contacts: [Contact]!
 
     // MARK: - Table view data source
-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return contacts.count
     }

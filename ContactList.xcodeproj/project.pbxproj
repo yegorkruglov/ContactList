@@ -16,6 +16,8 @@
 		5D7ABA022A20CB0500FABAE1 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7ABA012A20CB0500FABAE1 /* Contact.swift */; };
 		5D7ABA052A20CBE900FABAE1 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7ABA042A20CBE900FABAE1 /* DataStore.swift */; };
 		5D7ABA0A2A20D6BD00FABAE1 /* ContactDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7ABA092A20D6BD00FABAE1 /* ContactDetails.swift */; };
+		5D7ABA0C2A20E35300FABAE1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7ABA0B2A20E35300FABAE1 /* TabBarController.swift */; };
+		5D7ABA102A20E5AC00FABAE1 /* ContactListExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7ABA0F2A20E5AC00FABAE1 /* ContactListExtended.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		5D7ABA012A20CB0500FABAE1 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		5D7ABA042A20CBE900FABAE1 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		5D7ABA092A20D6BD00FABAE1 /* ContactDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetails.swift; sourceTree = "<group>"; };
+		5D7ABA0B2A20E35300FABAE1 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		5D7ABA0F2A20E5AC00FABAE1 /* ContactListExtended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListExtended.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				5D7AB9FF2A20C8EE00FABAE1 /* ContactList.swift */,
 				5D7ABA092A20D6BD00FABAE1 /* ContactDetails.swift */,
+				5D7ABA0B2A20E35300FABAE1 /* TabBarController.swift */,
+				5D7ABA0F2A20E5AC00FABAE1 /* ContactListExtended.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -199,6 +205,8 @@
 				5D7ABA0A2A20D6BD00FABAE1 /* ContactDetails.swift in Sources */,
 				5D7AB9E82A20C3B400FABAE1 /* AppDelegate.swift in Sources */,
 				5D7ABA002A20C8EE00FABAE1 /* ContactList.swift in Sources */,
+				5D7ABA0C2A20E35300FABAE1 /* TabBarController.swift in Sources */,
+				5D7ABA102A20E5AC00FABAE1 /* ContactListExtended.swift in Sources */,
 				5D7ABA052A20CBE900FABAE1 /* DataStore.swift in Sources */,
 				5D7AB9EA2A20C3B400FABAE1 /* SceneDelegate.swift in Sources */,
 			);
