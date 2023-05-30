@@ -22,9 +22,9 @@ final class TabBarController: UITabBarController {
         
         viewControllers.forEach {
             let navigationVC = $0 as? UINavigationController
-            if let contactList = navigationVC?.topViewController as? ContactList {
+            if let contactList = navigationVC?.topViewController as? ContactListViewController {
                 contactList.contacts = contacts
-            } else if let contactListExtended = navigationVC?.topViewController as? ContactListExtended {
+            } else if let contactListExtended = navigationVC?.topViewController as? ContactListExtendedViewController {
                 contactListExtended.contacts = contacts
             }
         }

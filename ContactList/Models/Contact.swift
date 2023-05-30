@@ -25,7 +25,7 @@ struct Contact {
         var phones = DataStore.shared.phones
         var emails = DataStore.shared.emails
         
-        for _ in 1...10 {
+        for _ in 1...names.count {
             let name = names.removeFirst()
             let surname = surnames.removeFirst()
             let phone = phones.removeFirst()

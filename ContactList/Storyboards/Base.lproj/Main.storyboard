@@ -12,7 +12,7 @@
         <!--Contact List Extended-->
         <scene sceneID="pNH-QN-j78">
             <objects>
-                <tableViewController id="Nfv-gs-OmV" customClass="ContactListExtended" customModule="ContactList" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Nfv-gs-OmV" customClass="ContactListExtendedViewController" customModule="ContactList" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="uN6-Lk-8JC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -92,7 +92,7 @@
         <!--Contact List-->
         <scene sceneID="FAj-p3-YG2">
             <objects>
-                <tableViewController id="aHz-vm-bdz" customClass="ContactList" customModule="ContactList" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="aHz-vm-bdz" customClass="ContactListViewController" customModule="ContactList" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="zm7-QC-er8">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -130,10 +130,10 @@
             </objects>
             <point key="canvasLocation" x="-56" y="-27"/>
         </scene>
-        <!--Contact Details-->
+        <!--Contact Details View Controller-->
         <scene sceneID="2Ic-OL-BAb">
             <objects>
-                <viewController id="FBr-MM-aW3" customClass="ContactDetails" customModule="ContactList" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="FBr-MM-aW3" customClass="ContactDetailsViewController" customModule="ContactList" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tvg-sY-Dta">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

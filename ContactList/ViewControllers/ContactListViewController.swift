@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class ContactList: UITableViewController {
+final class ContactListViewController: UITableViewController {
     
     var contacts: [Contact]!
 
@@ -25,7 +25,7 @@ final class ContactList: UITableViewController {
     
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let detailsVC = segue.destination as? ContactDetails else { return }
+        guard let detailsVC = segue.destination as? ContactDetailsViewController else { return }
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
         detailsVC.contact = contacts[indexPath.row]
     }
