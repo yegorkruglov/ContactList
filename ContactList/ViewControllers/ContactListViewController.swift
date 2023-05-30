@@ -18,7 +18,10 @@ final class ContactListViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "conctactCell", for: indexPath)
-        cell.textLabel?.text = contacts[indexPath.row].fullName
+        
+        var content = cell.defaultContentConfiguration()
+        content.text = contacts[indexPath.row].fullName
+        cell.contentConfiguration = content
         
         return cell
     }

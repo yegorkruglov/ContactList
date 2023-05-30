@@ -98,9 +98,9 @@
 		5D7AB9FD2A20C40000FABAE1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				5D7ABA0B2A20E35300FABAE1 /* TabBarController.swift */,
 				5D7AB9FF2A20C8EE00FABAE1 /* ContactListViewController.swift */,
 				5D7ABA092A20D6BD00FABAE1 /* ContactDetailsViewController.swift */,
-				5D7ABA0B2A20E35300FABAE1 /* TabBarController.swift */,
 				5D7ABA0F2A20E5AC00FABAE1 /* ContactListExtendedViewController.swift */,
 			);
 			path = ViewControllers;

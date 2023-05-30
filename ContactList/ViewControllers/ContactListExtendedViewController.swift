@@ -29,7 +29,7 @@ final class ContactListExtendedViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if indexPath.row % 2 == 0 {
+        if indexPath.row == 0 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "phoneCell", for: indexPath)
             
             var content = cell.defaultContentConfiguration()
