@@ -40,7 +40,8 @@ final class DataStore {
                                "+7 123 456 78 88",
                                "+7 123 456 78 99",
                                "+7 123 456 78 00"]
-    let emails: Set<String> = ["1@swiftbook.org", "2@swiftbook.org",
+    let emails: Set<String> = ["1@swiftbook.org",
+                               "2@swiftbook.org",
                                "3@swiftbook.org",
                                "4@swiftbook.org",
                                "5@swiftbook.org",
